@@ -1,0 +1,29 @@
+body{
+	margin-left: 0px;
+}
+#button_entretien{
+	background: #555;
+	margin-bottom: 30px;
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 91%;
+}
+#button_entretien input{
+		    box-shadow: 0 1px 0px rgba(0,0,0,0.12), 0 1px 1px rgba(0,0,0,0.24);
+		    color: #fff !important;
+		    border: none !important;
+		    background-color: #1c84c6 !important;
+		    padding-left: 20px;
+    		padding-right: 20px;
+    		border-radius: 24px !important;
+    		margin-left: 684px;
+}
+#button_entretien input:hover{
+	    background: rgba(20,60,100,30) !important;
+}
+#entretien{
+	margin-left: 0px;
+}
+div#tabs-demo7-area1 {
+    margin-left: -40px;
+}

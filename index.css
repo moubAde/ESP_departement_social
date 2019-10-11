@@ -1,0 +1,66 @@
+#gly-user{
+    display: none;
+}
+
+#gly-lock{
+    display: none;
+}
+
+.text-user:focus + span + label + #gly-user{
+   display: inline-block !important;
+   position: absolute;
+   margin-top: 13px;
+   margin-left: -120px;
+}
+
+.text-user{
+    margin-left:20px; 
+    border:none !important;
+}
+
+.text-lock:focus + span + label + #gly-lock{
+   display: inline-block !important;
+   position: absolute;
+   margin-top: 13px;
+   margin-left: -120px;
+}
+
+.text-lock{
+    margin-left:20px; 
+    border-bottom: none !important;
+}
+
+#form{
+	border: solid;
+	margin-top: 15%;
+}
+
+#span1{
+    margin-top: 0px;
+    margin-left: 20px;
+    position: absolute;
+    transition-property: margin;
+    transition-duration: 2s;
+    transition-delay:0s;
+    transition-timing-function:linear; 
+}
+
+#span2{
+    margin-top: 0px;
+    margin-left: 880px;
+    position: absolute;
+    transition-property: margin;
+    transition-duration: 2s;
+    transition-delay:0s;
+    transition-timing-function:linear; 
+}
+
+body{
+	overflow: hidden;
+}
+
+#creer,#administrer{
+    margin-top: -20px;
+    height: 50px;
+    border-radius: 10px !important;
+}

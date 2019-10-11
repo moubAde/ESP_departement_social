@@ -1,0 +1,62 @@
+/*input{
+	display: inline-block;
+}*/
+
+input[type="text"]{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: #555;
+}
+
+#autreResident2{
+	display: none;
+}
+
+#autreResident1:checked + #autreResident2{
+    display: inline-block;
+}
+
+#autreProfessionnelle2{
+	display: none;
+}
+
+#autreProfessionnelle1:checked + #autreProfessionnelle2{
+    display: inline-block;
+}
+
+#autreVivre2{
+	display: none;
+}
+
+#autreVivre1:checked + br + #autreVivre2{
+    display: inline-block;
+}
+
+#autreAdresse2{
+	display: none;
+}
+
+#autreAdresse1:checked + br + #autreAdresse2{
+    display: inline-block;
+}
+
+#refere2{
+	display: none;
+}
+
+#refere1:checked + br + #refere2{
+    display: inline-block;
+}
+
+/******************pour gerer la disparition dans Client venu de lui-même*******************************/
+
+#non2{
+  display: none !important;
+}
+
+#non1:checked + br + br + #non2{
+  display: inline-block !important;
+}
+
+/*************************************************/
